@@ -7,6 +7,8 @@
         Idle = 2,
         Working = 3,
         WorkFinished = 4,
-        CleaningEnvironment = 5
+        CleaningEnvironment = 5,
+
+        Dead = 500
     }
 }
