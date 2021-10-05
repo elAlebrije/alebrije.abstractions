@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Alebrije.Abstractions</PackageId>
+    <Product>Alebrije.Abstractions</Product>
+    <Authors>JJ Antonio Franco</Authors>
+    <Company>alebrije.dev</Company>
+    <Description>Interfaces and models used in Alebrije Namespace</Description>
+    <Copyright>alebrije.dev</Copyright>
+    <PackageProjectUrl>https://www.alebrije.dev</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/elAlebrije/alebrije.abstractions</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>C#</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
