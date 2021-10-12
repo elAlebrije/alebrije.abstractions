@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Alebrije.Abstractions.Mailing
+namespace Alebrije.Abstractions.Communication
 {
     public interface IMailingService
     {

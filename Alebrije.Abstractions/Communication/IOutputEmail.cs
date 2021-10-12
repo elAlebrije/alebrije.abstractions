@@ -1,6 +1,6 @@
 ﻿using System.Net.Mail;
 
-namespace Alebrije.Abstractions.Mailing
+namespace Alebrije.Abstractions.Communication
 {
     public interface IOutputEmail
     {

@@ -1,4 +1,4 @@
-﻿namespace Alebrije.Abstractions.Mailing
+﻿namespace Alebrije.Abstractions.Communication
 {
     public class MailingAddress
     {
