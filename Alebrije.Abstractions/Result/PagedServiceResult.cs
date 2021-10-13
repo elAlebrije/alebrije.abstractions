@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Alebrije.Abstractions.Enums;
 
 namespace Alebrije.Abstractions.Result
 {
@@ -53,12 +52,6 @@ namespace Alebrije.Abstractions.Result
 
                 PageInfo.PageSize = PageInfo.PageSize > 0 ? PageInfo.PageSize : _data.Count();
                 PageInfo.RecordsDisplayed = _data.Count();
-
-                var message = PageInfo.RecordsDisplayed > 0
-                    ? $"Page {PageInfo.DisplayPage} of {PageInfo.TotalPages} has {PageInfo.RecordsDisplayed} records"
-                    : $"Page {PageInfo.DisplayPage} of {PageInfo.TotalPages} is empty";
-                AddResultMessage(message, Types.Message.Application);
-                Code = Codes.ServiceResult.WithData;
             }
         }
     }
